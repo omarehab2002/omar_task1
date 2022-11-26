@@ -2,9 +2,9 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY mar.java .
+COPY Omar.java .
 
 
-RUN javac omar.java
+RUN javac Omar.java
 
-CMD java omar
+CMD java Omar
