@@ -7,4 +7,4 @@ COPY omar.java .
 
 RUN javac omar.java
 
-CMD java ahmed
+CMD java omar
